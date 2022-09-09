@@ -1,0 +1,125 @@
+body {
+  background: url("./images/hero.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 1920px;
+  height: 69px;
+  left: 0px;
+  top: 0px;
+  background: rgba(128, 124, 124, 0.6);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+nav h1 {
+  position: relative;
+  width: 265px;
+  height: 75px;
+  left: 96px;
+  top: 6px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  animation: fadeIn 5s;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 100px;
+}
+
+li {
+  margin: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.mainText {
+  position: absolute;
+  width: 735px;
+  height: 220px;
+  left: 96px;
+  top: 210px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.secondText {
+  position: absolute;
+  width: 735px;
+  height: 60px;
+  left: 96px;
+  top: 489px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.website_btn {
+  position: absolute;
+  width: 186px;
+  height: 44px;
+  left: 96px;
+  top: 632px;
+
+  background: #848080;
+  border-radius: 20px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.hire_btn {
+  position: absolute;
+  width: 198px;
+  height: 47px;
+  left: 322px;
+  top: 629px;
+
+  background: #848080;
+  border-radius: 20px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}

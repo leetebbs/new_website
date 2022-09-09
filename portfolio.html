@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <title>TEBBO WebDev</title>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <a href="/index.html"><h1 id="logo"></h1></a>
+            <ul>
+                <li ><a href="/about.html">About</a></li>
+                <li ><a href="/portfolio.html">Portfolio</a></li>
+                <li><a href="mailto:tebbouk@gmail.com?subject=General%20enquiry">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class = "Portfolio">Portfolio</h1>
+        <div class="row">
+            <card class="card1" class="card">
+                <h1 class="title">Save the Bees</h1>
+                <div>
+                    <img class="image" src="./images/savebees.JPG"/>
+                </div>
+                <div class="description">
+                    <p>This is simple bare bones project to demonstrate the connection of a simple ERC721 smart contract to the frontend with metamask using simple javascript.</p>
+                </div>
+                <div class="links">
+                    <a class="chain" href="https://savethebeesdemo.netlify.app/" target="_blank"><img class="chainimage" src="./images/chain1.png"> Live Preview</a>
+                    <a class="code" href="https://github.com/Tebbo-Web-Devs/beesdapp" target="_blank"><img class="githubimage" src="./images/github.png"> Code</a>
+                </div>
+
+            </card>
+            <card class="card2" class="card">
+                <h1 class="title">Trafalgar Medical</h1>
+                <div>
+                    <img class="image" src="./images/trafalgar.JPG"/>
+                </div>
+                <div class="description">
+                    <p>A simple landing page built from Figma using HTML and CSS.</p>
+                    <a class="figma" href="https://www.figma.com/community/file/892358789568947362" target="_blank">> Figma File</a>
+                </div>
+                <a class="chain" href="https://trafalgardocs.netlify.app/" target="_blank"><img class="chainimage" src="./images/chain1.png"> Live Preview</a>
+                <a class="code" href="https://github.com/leetebbs/trafalgar" target="_blank"><img class="githubimage" src="./images/github.png"> Code</a>
+            </card>
+            <card class="card3" class="card">
+                <h1 class="title">NFT Minting Site</h1>
+                <div>
+                    <img class="image" src="./images/badcr.JPG"/>
+                </div>
+                <div class="description">
+                    <p>An NFT minting site built using HTML, CSS, Javascript, web3js, Moralis, canvas and IPFS for file storage.</p>
+                </div>
+                <a class="chain" href="https://badcr.netlify.app/" target="_blank"><img class="chainimage" src="./images/chain1.png"> Live Preview</a>
+                <a class="code" href="https://github.com/leetebbs/BADCR" target="_blank"><img class="githubimage" src="./images/github.png"> Code</a>                
+            </card>
+            <card class="card4" class="card">
+                <h1 class="title">Netflix web3 clone</h1>
+                <div>
+                    <img class="image" src="./images/netflix.JPG"/>
+                </div>
+                <div class="description">
+                    <p>Built for the Morlais Builder Hackathon the Dapp allows the user to log in with their wallet, Movies are stored on IPFS. Built with Moralis, React and IPFS</p>
+                </div>
+                <a class="chain" href="https://netflix-six-mu.vercel.app/"target="_blank"><img class="chainimage" src="./images/chain1.png"> Live Preview</a>
+                <a class="code" href="https://github.com/leetebbs/netflix" target="_blank"><img class="githubimage" src="./images/github.png"> Code</a>
+            </card>
+        </div>
+
+        <button class="website_btn"><a href="mailto:tebbouk@gmail.com?subject=I%20need%20a%20website">I need a Website</a></button>
+        <button class="hire_btn"><a href="mailto:tebbouk@gmail.com?subject=Im%20looking%20to%20hire">I'm looking to hire</a></button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
